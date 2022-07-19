@@ -723,11 +723,6 @@ video {
     padding: 2.5rem;
   }
 
-  .md\:px-0 {
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-
   .md\:text-6xl {
     font-size: 3.75rem;
     line-height: 1;
