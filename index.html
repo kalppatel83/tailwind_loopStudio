@@ -101,10 +101,36 @@
           <h2 class="text-4xl text-center uppercase md:text-left md:text-5xl">
             Our Crations
           </h2>
+
           <button class="hidden btn md:block">See ALL</button>
         </div>
 
         <!-- Items Container -->
+        <div
+          class="flex flex-col justify-between w-full space-y-6 text-2xl text-white uppercase md:flex-row md:space-y-0 md:space-x-8"
+        >
+          <!-- Item 1 -->
+          <div class="relative overflow-hidden group md:w-1/4">
+            <!-- Mobile img -->
+            <img
+              src="images/mobile/image-deep-earth.jpg"
+              alt=""
+              class="w-full md:hidden"
+            />
+            <!-- desktop img -->
+            <img
+              src="images/desktop/image-deep-earth.jpg"
+              alt=""
+              class="hidden w-full duration-200 md:block group-hover:scale-110"
+            />
+            <!-- Item Gradient -->
+            <div
+              class="absolute top-0 bottom-0 left-0 right-0 bg-gradient-to-b from-transparent to-gray-900 group-hover:from-gray-50 group-hover:to-white group-hover:opacity-70"
+            ></div>
+            <!-- Item Text -->
+            <h5>Deep Earth</h5>
+          </div>
+        </div>
       </div>
     </section>
   </body>
